@@ -6,9 +6,9 @@ import os
 class Config(object):
 	API_ID = int(os.environ.get("API_ID", "20053544"))
 	API_HASH = os.environ.get("API_HASH", "f26c4d28081c11e0c48707143f7bb5b1")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN", "6498888124:AAGk0j80H4k_OwBhrAxj91Vpf46Q0GoBCAI")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME", "None")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002092496313"))
+	BOT_TOKEN = os.environ.get("BOT_TOKEN", "6670339021:AAG1QmKyq_2yeEYJlw5O_SPr6AMrYm23ThY")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME", "@Unlimited_Files_Store_Movies_Bot")
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002116594511"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1439022100"))
 	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://MovieTimeHD1:MovieTimeHD1@cluster0.trfqzij.mongodb.net/")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001688675040")
